@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1; 
+}
+
+#main-container {
+    padding: 50px 0px 50px 0px;
+    margin: 0;
+    width: 100vh;
+    height: 100vh;
+    color: white;
+    font-family: 'Courier Prime', monospace;
+}
+
+#main-content {
+    max-width: 800px;
+    padding: 20px 20px 50px 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(5px);
+    display: none;
+}
+
+#title-text {
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.entry {
+    margin-bottom: 80px;
+    font-size: 12px;
+}
+
+.entry-title {
+    font-weight: 800;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
