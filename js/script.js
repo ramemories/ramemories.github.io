@@ -5,7 +5,7 @@
  */
 
 const text = "random access memories"; // Replace with your desired text
-const charSpeed = 200;
+const charSpeed = 100;
 const spaceSpeed = 400;
 let index = 0;
 
