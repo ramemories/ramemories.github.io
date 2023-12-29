@@ -1,0 +1,75 @@
+{
+    "permissions": {
+      "admin": {
+        "canAccessDashboard": true,
+        "canManageUsers": true,
+        "canEditSettings": true,
+        "canDeletePosts": true,
+        "canBanUsers": true
+      },
+      "moderator": {
+        "canAccessDashboard": true,
+        "canManageUsers": true,
+        "canEditSettings": false,
+        "canDeletePosts": true,
+        "canBanUsers": false
+      },
+      "basicUser": {
+        "canAccessDashboard": false,
+        "canManageUsers": false,
+        "canEditSettings": false,
+        "canDeletePosts": false,
+        "canBanUsers": false
+      },
+      "superUser": {
+        "canAccessDashboard": true,
+        "canManageUsers": true,
+        "canEditSettings": true,
+        "canDeletePosts": true,
+        "canBanUsers": true
+      },
+      "guestUser": {
+        "canAccessDashboard": false,
+        "canManageUsers": false,
+        "canEditSettings": false,
+        "canDeletePosts": false,
+        "canBanUsers": false
+      },
+      "supportUser": {
+        "canAccessDashboard": true,
+        "canManageUsers": false,
+        "canEditSettings": false,
+        "canDeletePosts": true,
+        "canBanUsers": false
+      },
+      "premiumUser": {
+        "canAccessDashboard": true,
+        "canManageUsers": false,
+        "canEditSettings": true,
+        "canDeletePosts": false,
+        "canBanUsers": true
+      },
+      "trialUser": {
+        "canAccessDashboard": true,
+        "canManageUsers": false,
+        "canEditSettings": false,
+        "canDeletePosts": false,
+        "canBanUsers": false
+      },
+      "limitedUser": {
+        "canAccessDashboard": false,
+        "canManageUsers": false,
+        "canEditSettings": false,
+        "canDeletePosts": false,
+        "canBanUsers": false
+      },
+      "anonymousUser": {
+        "canAccessDashboard": false,
+        "canManageUsers": false,
+        "canEditSettings": false,
+        "canDeletePosts": false,
+        "canBanUsers": false
+      }
+    }
+  }
+  

@@ -1,0 +1,76 @@
+/* 
+Version: 1.0.0
+Since: 7 December 2023
+random access memories
+*/
+
+
+/* ---------------- PAGE SETUP ---------------- */
+body {
+    margin: 0;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1; 
+}
+
+
+/* ----------------CONTENTS ---------------- */
+#main-container {
+    padding: 0px 0px 50px 0px;
+    margin: 0;
+    width: 100vh;
+    height: 100vh;
+    color: white;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+#main-content {
+    max-width: 800px;
+    padding: 20px 20px 50px 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(2px);
+    display: none;
+}
+
+#title-text {
+    padding: 30px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.entry {
+    margin-bottom: 80px;
+    font-size: 10px;
+}
+
+.entry-title {
+    font-weight: 800;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+
+/* ---------------- MEDIA QUERIES ----------------  */
+@media (min-width: 768px) {
+    #main-content {
+        max-width: 800px;
+        padding: 20px;
+
+    }
+}
+
+@media (max-width: 767px) {
+    #main-content {
+        width: 94%;
+        padding: 5px;
+    }
+}
