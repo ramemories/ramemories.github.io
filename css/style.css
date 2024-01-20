@@ -59,6 +59,10 @@ canvas {
     font-size: 14px;
 }
 
+.timestamp {
+    font-weight: 800;
+}
+
 
 /* ---------------- MEDIA QUERIES ----------------  */
 @media (min-width: 768px) {
