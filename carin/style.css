@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    font-family: 'DM Sans';
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    
+    background-image: url("./assets/alaska-lake.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#main-content {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    padding: 0;
+    backdrop-filter: blur(6px);
+}
+
+#title-text {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.entry {
+    margin-bottom: 60px;
+    font-size: 10px;
+}
+
+.entry > p {
+    margin-bottom: 8px;
+}
+
+.timestamp {
+    font-style: italic;
+}
+
+
+
+/* Media Queries */
+@media (min-width: 768px) {
+    #main-content {
+        max-width: 800px;
+        padding: 20px;
+    }   
+}
+
+@media (max-width: 767px) {
+    #main-content {
+        width: 94%;
+        padding: 5px;
+    }
+}
